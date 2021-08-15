@@ -90,29 +90,29 @@ function createReadMe () {
         console.log("Making ReadMe");
         const markdown = 
 `
-#${inquirerResponse.title}
+## ${inquirerResponse.title}
 
-#Description
+# Description
 
 ${inquirerResponse.description}
 
-#Contents
+# Contents
 
 ${inquirerResponse.contents}
 
-#Installation
+# Installation
 
 ${inquirerResponse.installation}
 
-#Credits
+# Credits
 
 ${inquirerResponse.credits}
 
-#Features
+# Features
 
 ${inquirerResponse.features}
 
-#Tests
+# Tests
 
 ${inquirerResponse.tests}
 
